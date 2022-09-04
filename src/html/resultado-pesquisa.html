@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Searchverse | Resultados de busca</title>
+        <meta name="descript type="module"ion" content="Encontre o multiverso da sua escolha! Busque por categoria, encontre e entre no multiverso que preferir ">
+        <link rel="stylesheet" href="..\css\styles.css">
+        <link rel="stylesheet" href="..\css\cards.css">
+        <link rel="stylesheet" href="..\css\resultados-busca.css">
+        <link rel="icon" href="..\img\favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header-container">
+            <a href="../../index.html"><img class="logo" src="../img/logo.png" alt="logo do searchverse, desenho de um óculos VR sobre o nome 'Searchverse'"></a>
+            <div class="pesquisa-container">
+                <label for="categorias" hidden>Empresa</label>
+                <div class="selects">
+                    <select id="plataformas">
+                        <option value="" disabled selected></option>
+                        <option value="Spatio.io">Spatio.io</option>
+                        <option value="Roblox.com">Roblox.com</option>
+                        <option value="hatchxr.com">hatchxr.com</option>
+                        <option value="hatch kids">hatch kids</option>
+                    </select>
+                    <select class="bd-radius-empresas" id="empresas">
+                        <option value="" disabled selected></option>
+                        <option value="Petrobras">Petrobras</option>
+                        <option value="Polycount_ioB">Polycount_ioB</option>
+                        <option value="Jake @ Spatial">Jake @ Spatial</option>
+                        <option value="ObidO">ObidO</option>
+                        <option value="Spatial">Spatial</option>
+                        <option value="K12 Innovations">K12 Innovations</option>
+                        <option value="Google, Apple, Havard">Google, Apple, Havard</option>
+                    </select>
+                    <label for="categorias" hidden>Categoria</label>
+                    <select id="categorias">
+                        <option value="" disabled selected></option>
+                        <option value="Educação">Educação</option>
+                        <option value="Diversão">Diversão</option>
+                        <option value="Social">Social</option>
+                        <option value="Comunidade">Comunidade</option>
+                    </select>
+                </div>
+                <div class="container-barra-pesquisa">
+                    <label for="barra-pesquisa" hidden>Insira o nome de um metaverso</label>
+                    <input type="search" name="barra-pesquisa" id="barra-pesquisa">
+                    <a href="resultado-pesquisa.html" id="b-buscar"><img src="../img/lupa.svg" alt="ícone de lupa"></a>
+                </div>
+            </div>
+        </header>
+        <main class="container-externo">
+            <h1 class="titulo">0 resultados encontrados</h1>
+            <section class="container-metaversos">  
+            </section>
+        </main>
+        <footer>
+            <section class="footer-descricao">
+                <h2>O que é o Searchverse?</h2>
+                <p>O Searchverse é uma plataforma que centraliza endereços para metaversos educacionais que podem ser filtrados por categoria. Nosso principal objetivo é permitir que as pessoas encontrem e se conectem facilmente com o metaverso da sua preferência</p>
+            </section>
+            <section class="redes-sociais">
+                <a href=""><img src="..\img\linkedin.svg" alt="linkedin"></a>
+                <a href=""><img src="..\img\facebook.svg" alt="facebook"></a>
+                <a href=""><img src="..\img\twitter.svg" alt="twitter"></a>
+                <a href=""><img src="..\img\instagram.svg" alt="instagram"></a>
+            </section>
+            <small>&copy Searchverse - 2022</small>
+        </footer>
+        <script type="module" src="../js/scripts.js"></script>
+        <script type="module" src="..\js\resultadoPesquisa.js"></script>
+    </body>
+</html>

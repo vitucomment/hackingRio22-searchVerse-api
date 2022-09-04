@@ -30,6 +30,7 @@ public class MetaverseController {
 		return verseRepository.findAll();
 	}
 
+	
 	@GetMapping("/{id}")
 	public ResponseEntity<Verses> listarPorId(@PathVariable(value = "id") long id) {
 		try {

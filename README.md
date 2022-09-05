@@ -26,6 +26,9 @@ Nossa plataforma surge como um contraponto a essa dispersão de informações, c
 * Spring boot
 * Java
 * Heroku
+* JPA
+* PostgreSQL
+
 ### Frontend
 * HTML5
 * CSS3

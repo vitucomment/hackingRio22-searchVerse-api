@@ -1,7 +1,7 @@
 
 # Searchverse
 
-## Acesse: [Link do site](https://danielle-luz.github.io/Searchverse/)
+## Acesse: [Link do site](https://danielle-luz.github.io/Searchverse/index.html)
 
 ## Descrição
 O Searchverse é um catálogo de Metaversos que, por meio de ferramentas de busca e filtragem, utiliza palavras-chaves a fim de encontrar ambientes de realidade virtual, com foco em temáticas educacionais. 
